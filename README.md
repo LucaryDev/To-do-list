@@ -4,7 +4,7 @@ Projeto desenvolvido com **HTML, CSS e JavaScript** com o objetivo de praticar f
 
 ##  Funcionalidades
 
--  
+- mostra nome das tarefas
 
 ## ️ Tecnologias
 
@@ -34,6 +34,6 @@ Projeto desenvolvido com **HTML, CSS e JavaScript** com o objetivo de praticar f
 ##  Como rodar o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/todo-list
+git clone https://github.com/LucaryDev/todo-list
 cd todo-list
 
