@@ -4,7 +4,7 @@ Projeto desenvolvido com **HTML, CSS e JavaScript** com o objetivo de praticar f
 
 ##  Funcionalidades
 
--  Em desenvolvimento (primeira versão ainda sem funcionalidades)
+-  
 
 ## ️ Tecnologias
 
