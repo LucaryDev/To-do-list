@@ -9,3 +9,11 @@ const botaoAdicionarTarefa = document.getElementById("botaoNome")
 const ulPendente = document.getElementById("pendente")
 const ulConcluido = document.getElementById("concluido")
 
+//JS
+botaoAdicionarTarefa?.addEventListener("click", (event) => {
+  event.preventDefault()
+  
+  let li = document.createElement("li")
+  li.textContent = input.value
+  ulPendente.appendChild(li)
+})
