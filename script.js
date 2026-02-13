@@ -10,7 +10,7 @@ const ulPendente = document.getElementById("pendente")
 const ulConcluido = document.getElementById("concluido")
 
 //JS
-function checagemCheckbox(input, adicionar1, adicionar2) {
+function checagemCheckbox(input, adicionarinput1, adicionarinput2) {
   
 }
 class tarefa {
