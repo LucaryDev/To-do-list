@@ -14,6 +14,7 @@ class tarefa {
   constructor(nome) {
     this.id = tarefas.length + 1
     this.nome = nome
+    this.check = false
   }
 }
 
@@ -33,5 +34,6 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   li.appendChild(checkbox)
   li.appendChild(label)
   
-  ulPendente.appendChild(li)
+  tarefas.push(new tarefa(li))
+  })
 })
