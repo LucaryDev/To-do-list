@@ -11,6 +11,7 @@ const ulConcluido = document.getElementById("concluido")
 
 //JS
 function checagemCheckbox(input, adicionarinput1, adicionarinput2) {
+  const checagem = input.checked
   
 }
 class tarefa {
