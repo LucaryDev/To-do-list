@@ -22,12 +22,12 @@ const tarefas = []
 botaoAdicionarTarefa?.addEventListener("click", (event) => {
   event.preventDefault()
   
-  const inputCheckbox = document.createElement("input")
-  inputCheckbox.type = "checkbox"
+  const checkbox = document.createElement("input")
+  checkbox.type = "checkbox"
   
   const label = document.createElement("label")
+  label.textContent = input.value
   
   let li = document.createElement("li")
-  li.textContent = input.value
   ulPendente.appendChild(li)
 })
