@@ -17,6 +17,8 @@ class tarefa {
   }
 }
 
+const tarefas = []
+
 botaoAdicionarTarefa?.addEventListener("click", (event) => {
   event.preventDefault()
   
