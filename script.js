@@ -25,6 +25,7 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   const inputCheckbox = document.createElement("input")
   inputCheckbox.type = "checkbox"
   
+  const label = document.createElement("label")
   
   let li = document.createElement("li")
   li.textContent = input.value
