@@ -13,6 +13,9 @@ const ulConcluido = document.getElementById("concluido")
 function checagemCheckbox(input, adicionarinput1, adicionarinput2) {
   const checagem = input.checked
   
+  input.addEventListener("change", () => {
+    
+  })
 }
 class tarefa {
   constructor(nome) {
