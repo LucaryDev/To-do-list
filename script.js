@@ -10,11 +10,13 @@ const ulPendente = document.getElementById("pendente")
 const ulConcluido = document.getElementById("concluido")
 
 //JS
+function checagemCheckbox(input) {
+  
+}
 class tarefa {
   constructor(nome) {
     this.id = tarefas.length + 1
     this.nome = nome
-    this.check = false
   }
 }
 
