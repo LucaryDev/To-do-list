@@ -29,5 +29,9 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   label.textContent = input.value
   
   let li = document.createElement("li")
+  
+  li.appendChild(checkbox)
+  li.appendChild(label)
+  
   ulPendente.appendChild(li)
 })
