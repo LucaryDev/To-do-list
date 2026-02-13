@@ -10,6 +10,13 @@ const ulPendente = document.getElementById("pendente")
 const ulConcluido = document.getElementById("concluido")
 
 //JS
+class tarefa {
+  constructor(nome) {
+    this.id = tarefas.length + 1
+    this.nome = nome
+  }
+}
+
 botaoAdicionarTarefa?.addEventListener("click", (event) => {
   event.preventDefault()
   
