@@ -4,7 +4,7 @@ Projeto desenvolvido com **HTML, CSS e JavaScript** com o objetivo de praticar f
 
 ##  Funcionalidades
 
-- mostra nome das tarefas
+- Adiciona tarefas
 
 ## ️ Tecnologias
 
