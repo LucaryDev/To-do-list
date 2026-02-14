@@ -35,12 +35,13 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   
   tarefas.push(new tarefa(li))
   
-  function checagemCheckbox(input, adicionarinput1, adicionarinput2) {
+  checkbox.addEventListener("change", () => {
+    
   const checagem = input.checked
   
   input.addEventListener("change", () => {
     checagem ? adicionarinput1 : adicionarinput2
     
   })
-}
+})
 })
