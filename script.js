@@ -10,27 +10,22 @@ const ulPendente = document.getElementById("pendente")
 const ulConcluido = document.getElementById("concluido")
 
 //JS
-class tarefa {
-  constructor(nome) {
-    this.id = tarefas.length + 1
-    this.nome = nome
-  }
-}
-
 botaoAdicionarTarefa?.addEventListener("click", (event) => {
   event.preventDefault()
   
+//  criando partes html
   const checkbox = document.createElement("input")
   checkbox.type = "checkbox"
   
   const label = document.createElement("label")
   label.textContent = input.value
   
+  const excluir = document.createElement("button")
+ editar.textContent = "Excluir"
+  
   let li = document.createElement("li")
   
-  li.appendChild(checkbox)
-  li.appendChild(label)
-  
+// adicionando eventos
   checkbox.addEventListener("change", (c) => {
     
   const checagem = c.target.checked
@@ -42,14 +37,15 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
     }
  })
  
- const excluir = document.createElement("button")
- editar.textContent = "Excluir"
- 
  editar.addEventListener("click", () => {
    li.remove()
  })
  
+ // adicionando elementos no li
+ li.appendChild(checkbox)
+ li.appendChild(label)
  li.appendChild(editar)
+ 
  ulPendente.appendChild(li)
  
  input.value = ""
