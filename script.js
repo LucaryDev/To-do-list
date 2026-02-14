@@ -10,13 +10,6 @@ const ulPendente = document.getElementById("pendente")
 const ulConcluido = document.getElementById("concluido")
 
 //JS
-function checagemCheckbox(input, adicionarinput1, adicionarinput2) {
-  const checagem = input.checked
-  
-  input.addEventListener("change", () => {
-    checagem ? adicionarinput1 : adicionarinput2
-  })
-}
 class tarefa {
   constructor(nome) {
     this.id = tarefas.length + 1
@@ -41,4 +34,13 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   li.appendChild(label)
   
   tarefas.push(new tarefa(li))
+  
+  function checagemCheckbox(input, adicionarinput1, adicionarinput2) {
+  const checagem = input.checked
+  
+  input.addEventListener("change", () => {
+    checagem ? adicionarinput1 : adicionarinput2
+    
+  })
+}
 })
