@@ -35,9 +35,9 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   
   tarefas.push(new tarefa(li))
   
-  checkbox.addEventListener("change", () => {
+  checkbox.addEventListener("change", (c) => {
     
-  const checagem = input.checked
+  const checagem = c.target.checked
     
  })
 })
