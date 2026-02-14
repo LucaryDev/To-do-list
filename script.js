@@ -41,5 +41,4 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   li.appendChild(label)
   
   tarefas.push(new tarefa(li))
-  })
 })
