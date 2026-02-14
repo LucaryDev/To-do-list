@@ -39,5 +39,10 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
     
   const checagem = c.target.checked
     
+    if(checagem) {
+      
+    } else {
+      
+    }
  })
 })
