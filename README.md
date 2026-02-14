@@ -1,39 +1,41 @@
-#  To-Do List
+# ✅ To-Do List
 
-Projeto desenvolvido com **HTML, CSS e JavaScript** com o objetivo de praticar fundamentos de programação e lógica, além de dar os primeiros passos na manipulação do DOM.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Licença](https://img.shields.io/badge/licença-MIT-blue)
 
-##  Funcionalidades
+Projeto de lista de tarefas (To-Do List) desenvolvido com **HTML, CSS e JavaScript** para praticar manipulação do DOM, lógica de programação e boas práticas de versionamento com Git.
 
-- Adiciona tarefas
+## 🚀 Funcionalidades
 
-## ️ Tecnologias
+- **Adicionar tarefas** – Insira uma nova tarefa através do campo de texto e clique em "Adicionar" ou pressione **Enter**.
 
-- HTML  
-- CSS  
-- JavaScript  
+- **Excluir tarefas** – Cada tarefa possui um botão "Excluir" que a remove individualmente.
 
-##  Preview
+- **Marcar como concluída** – Utilize a checkbox para indicar tarefas finalizadas (preparado para futuras ações como filtrar ou mover para lista de concluídas).
 
- Em desenvolvimento  
-*(em breve: imagem ou GIF do projeto)*
+- **Limpeza automática** – Após adicionar uma tarefa, o campo de texto é automaticamente esvaziado, agilizando a digitação da próxima.
 
-##  O que eu aprendi
+- **Interface semântica** – IDs corrigidos e estrutura HTML válida.
 
-- Manipulação básica do DOM  
-- Lógica de programação  
-- Estruturação de um projeto simples front-end  
+- **Código modular e refatorado** – Organização e remoção de estruturas obsoletas (ex.: array de tarefas substituído por manipulação direta do DOM).
 
-##  Melhorias futuras
+## 🛠️ Tecnologias
 
-- Criar a lógica em JavaScript  
-- Exibir tarefas na tela  
-- Validar dados do input  
-- Editar, excluir e concluir tarefas  
-- Criar o layout com CSS (design do app)  
+- HTML5
+- CSS3 (em desenvolvimento)
+- JavaScript (ES6+)
 
-##  Como rodar o projeto
+## 📸 Preview
+
+> 🖼️ Em breve: imagem ou GIF demonstrando o funcionamento.
+
+## 📂 Como executar o projeto
 
 ```bash
+# Clone o repositório
 git clone https://github.com/LucaryDev/todo-list
+
+# Acesse a pasta
 cd todo-list
 
+# Abra o arquivo index.html no seu navegador
