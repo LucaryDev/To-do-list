@@ -38,10 +38,6 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   checkbox.addEventListener("change", () => {
     
   const checagem = input.checked
-  
-  input.addEventListener("change", () => {
-    checagem ? adicionarinput1 : adicionarinput2
     
-  })
-})
+ })
 })
