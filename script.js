@@ -17,8 +17,6 @@ class tarefa {
   }
 }
 
-const tarefas = []
-
 botaoAdicionarTarefa?.addEventListener("click", (event) => {
   event.preventDefault()
   
@@ -33,16 +31,14 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   li.appendChild(checkbox)
   li.appendChild(label)
   
-  tarefas.push(new tarefa(li))
-  
   checkbox.addEventListener("change", (c) => {
     
   const checagem = c.target.checked
     
     if(checagem) {
-      
+      ulConcluido.appendChild(li)
     } else {
-      
+      ulPendente.appendChild(li)
     }
  })
 })
