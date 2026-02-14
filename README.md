@@ -1,7 +1,7 @@
 # ✅ To-Do List
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Licença](https://img.shields.io/badge/licença-MIT-blue)
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](https://github.com/LucaryDev/To-do-list)
+[![Licença](https://img.shields.io/badge/licença-MIT-blue)](LICENSE)
 
 Projeto de lista de tarefas (To-Do List) desenvolvido com **HTML, CSS e JavaScript** para praticar manipulação do DOM, lógica de programação e boas práticas de versionamento com Git.
 
