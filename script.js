@@ -43,4 +43,6 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
  })
  
  ulPendente.appendChild(li)
+ 
+ input.value = ""
 })
