@@ -21,7 +21,7 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   label.textContent = input.value
   
   const excluir = document.createElement("button")
- editar.textContent = "Excluir"
+ excluir.textContent = "Excluir"
   
   let li = document.createElement("li")
   
