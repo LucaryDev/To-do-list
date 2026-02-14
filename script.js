@@ -14,7 +14,7 @@ function checagemCheckbox(input, adicionarinput1, adicionarinput2) {
   const checagem = input.checked
   
   input.addEventListener("change", () => {
-    
+    checagem ? adicionarinput1 : adicionarinput2
   })
 }
 class tarefa {
