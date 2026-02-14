@@ -42,6 +42,14 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
     }
  })
  
+ const excluir = document.createElement("button")
+ editar.textContent = "Excluir"
+ 
+ editar.addEventListener("click", () => {
+   li.remove()
+ })
+ 
+ li.appendChild(editar)
  ulPendente.appendChild(li)
  
  input.value = ""
