@@ -21,7 +21,10 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
   label.textContent = input.value
   
   const excluir = document.createElement("button")
- excluir.textContent = "Excluir"
+  excluir.textContent = "Excluir"
+ 
+ const editar = document.createElement("button")
+ editar.textContent = "Editar"
   
   let li = document.createElement("li")
   
@@ -41,10 +44,17 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
    li.remove()
  })
  
+ editar.addEventListener("click", () => {
+   const novoNome = prompt("Qual o novo nome da tarefa?")
+   
+   label.textContent = novoNome
+ })
+ 
  // adicionando elementos no li
  li.appendChild(checkbox)
  li.appendChild(label)
  li.appendChild(excluir)
+ li.appendChild(editar)
  
  ulPendente.appendChild(li)
  
