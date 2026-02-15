@@ -37,14 +37,14 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
     }
  })
  
- editar.addEventListener("click", () => {
+ excluir.addEventListener("click", () => {
    li.remove()
  })
  
  // adicionando elementos no li
  li.appendChild(checkbox)
  li.appendChild(label)
- li.appendChild(editar)
+ li.appendChild(excluir)
  
  ulPendente.appendChild(li)
  
