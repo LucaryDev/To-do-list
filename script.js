@@ -10,15 +10,12 @@ const ulPendente = document.getElementById("pendente")
 const ulConcluido = document.getElementById("concluido")
 
 //JS
-botaoAdicionarTarefa?.addEventListener("click", (event) => {
-  event.preventDefault()
-  
-//  criando partes html
+function criarTarefa (nomeTarefa) {
   const checkbox = document.createElement("input")
   checkbox.type = "checkbox"
   
   const label = document.createElement("label")
-  label.textContent = input.value
+  label.textContent = nomeTarefa
   
   const excluir = document.createElement("button")
   excluir.textContent = "Excluir"
@@ -56,7 +53,14 @@ botaoAdicionarTarefa?.addEventListener("click", (event) => {
  li.appendChild(excluir)
  li.appendChild(editar)
  
- ulPendente.appendChild(li)
- 
- input.value = ""
+ return li
+}
+
+botaoAdicionarTarefa?.addEventListener("click", (event) => {
+  event.preventDefault()
+
+  const li = criarTarefa(input.value)
+  ulPendente.appendChild(li)
+
+  input.value = ""
 })
